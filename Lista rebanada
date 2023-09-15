@@ -1,0 +1,17 @@
+frutas = ["manzana", "banana", "cereza", "uva", "naranja", "pera"]
+
+# Obtener las frutas desde el tercer elemento hasta el quinto elemento (no inclusivo)
+frutas_seleccionadas = frutas[2:5]
+print(frutas_seleccionadas)  # Output: ['cereza', 'uva', 'naranja']
+
+# Obtener las primeras tres frutas
+primeras_tres_frutas = frutas[:3]
+print(primeras_tres_frutas)  # Output: ['manzana', 'banana', 'cereza']
+
+# Obtener las frutas desde el índice 3 hasta el final de la lista
+frutas_desde_el_indice_3 = frutas[3:]
+print(frutas_desde_el_indice_3)  # Output: ['uva', 'naranja', 'pera']
+
+# Obtener una copia completa de la lista de frutas
+copia_de_frutas = frutas[:]
+print(copia_de_frutas)  # Output: ['manzana', 'banana', 'cereza', 'uva', 'naranja', 'pera']
